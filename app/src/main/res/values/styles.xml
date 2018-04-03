@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:colorPrimaryDark">@color/colorTextGreen</item>
+
+        <item name="colorControlActivated">@color/colorDarkGreen</item>
+        <item name="colorControlHighlight">@color/colorDarkGreen</item>
+
+
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorPrimary">@color/colorGrey</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TextAppearence.App.TextInputLayout" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorDarkGreen</item>
+        <item name="android:textSize">@dimen/_13sp</item>
+        <item name="colorControlNormal">@color/colorDarkGreen</item>
+        <item name="android:lines">1</item>
+
+        //added attributes
+        <item name="colorControlActivated">@color/colorDarkGreen</item>
+        <item name="colorControlHighlight">@color/colorDarkGreen</item>
+
+
+    </style>
+    <style name="MyToolbarThemeSimple.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:theme">@style/MyToolbarTheme</item>
+    </style>
+
+    <style name="MyToolbarTheme">
+        <!-- Used to for the title of the toolbar -->
+        <item name="android:textColorPrimary">@color/colorDarkGreen</item>
+        <!-- Used to color back button and overflow menu dots -->
+        <item name="android:textColorSecondary">@color/colorDarkGreen</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.NoActionBar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

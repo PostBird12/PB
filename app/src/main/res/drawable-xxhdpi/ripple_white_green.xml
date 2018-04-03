@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:color="@color/colorDarkGreen"
+    tools:targetApi="lollipop">
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="180"
+                android:centerColor="#A4EB4C"
+                android:endColor="#AEF557"
+                android:startColor="#90D735"
+                android:type="linear" />
+
+            <!--<solid android:color="@color/colorDarkGreen" />-->
+            <corners android:radius="28dp" />
+
+        </shape>
+    </item>
+
+    <item>
+
+        <shape android:shape="rectangle">
+
+
+            <solid android:color="@color/colorWhite" />
+            <corners android:radius="28dp" />
+
+        </shape>
+
+    </item>
+</ripple>
